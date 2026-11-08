@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Aibiike Nurlanova</title>
+<meta name="description" content="Projects by Aibiike Nurlanova: the engineering, the product decisions, and the impact.">
+<!-- Hidden from search engines until the placeholders are filled. Remove this line to allow indexing. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fff8fa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1218" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23f7b6c9'/%3E%3Ctext x='32' y='44' font-family='Georgia' font-style='italic' font-size='34' font-weight='700' fill='%23b8336a' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>(function(){try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="draft-bar" id="draft-bar" hidden><div class="wrap"><strong>Draft.</strong> <span id="draft-count"></span> Highlighted boxes still need your details.</div></div>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="index.html">Aibiike<span>.</span></a>
+    <nav class="main" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="experience.html">Experience</a></li>
+      </ul>
+    </nav>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="Switch to dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+  </div>
+</header>
+<main id="main">
+
+  <section class="page-head">
+    <span class="blob b1" aria-hidden="true"></span><span class="blob b2" aria-hidden="true"></span>
+    <div class="wrap">
+      <p class="eyebrow">Projects</p>
+      <h1>Things I've <em>built</em></h1>
+      <p>Each project is shown three ways: how I built it, the user problem and decisions behind it, and what it changed.</p>
+      <ul class="legend" aria-label="Legend"><li class="l-build">The build</li><li class="l-pm">Problem &amp; decisions</li><li class="l-biz">Impact</li></ul>
+    </div>
+  </section>
+  <section aria-label="Project list">
+    <div class="wrap projects">
+      <article class="card" id="alexis">
+        <div class="card-top"><h2>Alexis Dance Studio website</h2><span class="badge">Real client</span></div>
+        <p class="summary">A full-stack, 6-page website (classes, coaches, schedule, events) for a San Francisco dance studio.</p>
+        <p class="role"><strong>My role:</strong> Founder &amp; Product Lead · Sep 2026 to present</p>
+        <ul class="chips" aria-label="Tech"><li>React</li><li>Vite</li><li>Node.js</li><li>Express</li></ul>
+        <div class="angles">
+          <div class="angle build"><h3>The build</h3><ul><li>Built end to end: React/Vite front end and a Node.js/Express back end.</li><li>Multi-tier architecture across 6 pages.</li></ul></div>
+          <div class="angle pm"><h3>Problem &amp; decisions</h3><ul><li>Scoped and owned the roadmap directly with the studio owner (the customer).</li><li>Chose to defer back-end integration so customer-facing pages shipped first.</li><li>Iterating on client feedback since launch.</li></ul></div>
+          <div class="angle biz"><h3>Impact</h3><ul><li>100+ visits since launch.</li><li><span class="ph">[Add a studio outcome, e.g. sign-ups or inquiries via the site]</span></li></ul></div>
+        </div>
+        <div class="card-links"><span class="ph">[Live site link]</span><span class="ph">[Code link, if public]</span></div>
+      </article>
+      <article class="card" id="planner">
+        <div class="card-top"><h2>Application Planner</h2><span class="badge">Live</span></div>
+        <p class="summary">A mobile-first planner that helps high school students plan their Minerva application, with a start-by date for every step counted back from their deadline.</p>
+        <p class="role"><strong>My role:</strong> Product owner &amp; builder, working with an AI coding agent · Minerva Admissions AI Research Team, Nov 2026</p>
+        <ul class="chips" aria-label="Tech"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>JSON data model</li><li>GitHub Pages &amp; Actions</li></ul>
+        <div class="angles">
+          <div class="angle build"><h3>The build</h3><ul><li>No-framework, no-build static site. Every step, deadline and tip lives in one data.json that all pages read.</li><li>Scheduler that skips past days and the student's busy days, with waiting steps scheduled first.</li><li>Deployed with GitHub Actions to GitHub Pages.</li></ul></div>
+          <div class="angle pm"><h3>Problem &amp; decisions</h3><ul><li>Users: applicants, including students at schools without a counselor, who don't know how long each part takes.</li><li>Only states what Minerva's official pages say, and sends everything else to admissions.</li><li>Privacy by design: runs in the browser, saves nothing, no tracking.</li></ul></div>
+          <div class="angle biz"><h3>Impact</h3><ul><li>Goal: help applicants finish every part of their application before the deadline.</li><li><span class="ph">[Add result after testing, e.g. # of students who tried it, feedback]</span></li></ul></div>
+        </div>
+        <div class="card-links"><a class="btn primary" href="https://lilaibikesha.github.io/Sourced/">Live site</a><a class="btn" href="https://github.com/lilaibikesha/Sourced">Code on GitHub</a></div>
+      </article>
+      <article class="card" id="dcm">
+        <div class="card-top"><h2>Dance Competition Manager</h2><span class="badge">C++</span></div>
+        <p class="summary">An object-oriented C++ application that runs ballroom competitions end to end, from registration to final results.</p>
+        <p class="role"><strong>My role:</strong> Developer <span class="ph">[confirm role and date]</span></p>
+        <ul class="chips" aria-label="Tech"><li>C++</li><li>Object-oriented design</li><li>Linux</li></ul>
+        <div class="angles">
+          <div class="angle build"><h3>The build</h3><ul><li>Handles registration, heat assignments, multi-round scoring and finalist selection.</li><li>Ranking algorithms compute placements across rounds and judging panels.</li><li>Automated scoring and results with persistent file storage.</li></ul></div>
+          <div class="angle pm"><h3>Problem &amp; decisions</h3><ul><li>Covers the full competition flow, from registration to finalist selection.</li><li><span class="ph">[Add who it's for and one key design decision]</span></li></ul></div>
+          <div class="angle biz"><h3>Impact</h3><ul><li><span class="ph">[Add a result, e.g. time saved per competition or events run]</span></li></ul></div>
+        </div>
+        <div class="card-links"><span class="ph">[Code link]</span></div>
+      </article>
+      <article class="card" id="dancesport">
+        <div class="card-top"><h2>SF DanceSport Hub</h2><span class="badge">Live</span></div>
+        <p class="summary">One place for Bay Area DanceSport: upcoming competitions, results, dance camps, and resources.</p>
+        <p class="role"><strong>My role:</strong> Creator <span class="ph">[confirm role]</span> · Oct 2026</p>
+        <ul class="chips" aria-label="Tech"><li>HTML</li><li>CSS</li><li>GitHub Pages</li></ul>
+        <div class="angles">
+          <div class="angle build"><h3>The build</h3><ul><li>Responsive static site, deployed on GitHub Pages.</li></ul></div>
+          <div class="angle pm"><h3>Problem &amp; decisions</h3><ul><li>Brings competitions, results, camps and resources for Bay Area dancers into one page.</li><li><span class="ph">[Add one decision you made about what to include]</span></li></ul></div>
+          <div class="angle biz"><h3>Impact</h3><ul><li><span class="ph">[Add a result, e.g. visitors or dancers using it]</span></li></ul></div>
+        </div>
+        <div class="card-links"><a class="btn primary" href="https://lilaibikesha.github.io/ballroom-dance-app/">Live site</a><a class="btn" href="https://github.com/lilaibikesha/ballroom-dance-app">Code on GitHub</a></div>
+      </article>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Aibiike Nurlanova · San Francisco</span>
+    <nav aria-label="Contact">
+      <a href="mailto:nurlanova7070@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/anurlanova">LinkedIn</a>
+      <a href="https://github.com/lilaibikesha">GitHub</a>
+    </nav>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>
