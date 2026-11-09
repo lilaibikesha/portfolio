@@ -205,3 +205,23 @@ footer { border-top: 1px solid var(--line); padding: 2rem 0 3rem; color: var(--m
 footer .wrap { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; align-items: center; justify-content: space-between; }
 footer nav { display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
 footer nav a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); }
+
+/* Ballroom page */
+.dance-wrap { padding-bottom: 4rem; }
+.dance-grid { display: grid; gap: 1rem; }
+@media (min-width: 44rem) { .dance-grid { grid-template-columns: repeat(2, 1fr); } }
+.dance-card { border-radius: var(--radius); padding: 1.5rem; border: 1px solid var(--line); min-height: 9rem; }
+.dance-card.d1 { background: var(--blush); } .dance-card.d2 { background: var(--lavender); } .dance-card.d3 { background: var(--peach); } .dance-card.d4 { background: var(--mint); }
+.dance-card h2 { font-size: 1.6rem; margin-bottom: .5rem; }
+.dance-card p { margin: 0; }
+.dance-links { display: grid; gap: .75rem; }
+.dance-link { position: relative; display: block; padding: 1.1rem 4rem 1.1rem 1.3rem; border-radius: 18px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; color: var(--text); box-shadow: var(--shadow); transition: transform .15s ease; }
+.dance-link:hover { transform: translateY(-2px); }
+.dance-link strong { display: block; font-family: var(--serif); font-size: 1.25rem; }
+.dance-link span:not(.go) { color: var(--muted); }
+.dance-link .go { position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; border-radius: 50%; background: var(--blush); display: grid; place-items: center; color: var(--rose); }
+.dance-link .go svg { width: 18px; height: 18px; }
+.skills-empty { min-height: 30vh; }
+.contact { padding-top: 3rem; }
+.contact-card h2 { margin-bottom: 1.2rem; }
+.page-head .wrap { position: relative; }
